@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Project: Event invite</title>
+        <style>
+            body{
+                font-family: sans-serif;
+            }
+            h2{
+                /* font-family: verdana; */
+                text-align: center;
+                font-weight: bold;
+            }
+            h1{
+                text-align: center;
+            }
+            #main-img{
+                display:block;
+                /* margin-right:80px; */
+                float:right;
+                width:25%;
+            }
+            .main-div{
+                width: 60%;
+                line-height: 19px;
+                float:left;
+            }
+            #intro{
+                height: 221px;
+            }
+            #left{
+                height:1000px;
+                width:90px;
+                float:left;
+            }
+            #right{
+                /* position:absolute; */
+                height:1000px;
+                width:90px;
+                float:right;
+            }
+            #details{
+                clear:both;
+            }
+            .r-images{
+                border-radius:100%;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <div id="header">
+                <h1 id="main-head">You're invited!</h1>
+                <h2 id="second-head">To Visit Atyrau!</h2>
+            </div>
+            <div id="left">
+
+            </div>
+            <div class="main-div">
+                <div id="intro">
+                    <p style="margin-top:0px;">
+                        Atyrau, located at the crossroads of Europe and Asia, is a city full of culture, history, and stunning natural beauty. From the serene Caspian Sea to the vibrant local markets, there's so much to explore. Whether you're interested in discovering ancient landmarks, enjoying local cuisine, or simply relaxing by the coast, Atyrau offers something for every traveler.
+                    </p> 
+                    <!-- <br> -->
+                    <p>
+                        We can't wait to welcome you to this unique destination! Stay tuned for more details on the itinerary, accommodations, and exciting activities we have planned for you. Get ready for an unforgettable experience in Atyrau!
+                    </p>
+                </div>
+                <div id="details">
+                    <p>The details:</p>
+                    <ul>
+                        <li style="float:left;margin-right:25px;margin-top:60px;">You will visit Atyrau main buildings</li>
+                        <img class="r-images" src="https://upload.wikimedia.org/wikipedia/commons/f/f1/%D0%90%D0%BA%D0%B8%D0%BC%D0%B0%D1%82_%D0%90%D1%82%D1%8B%D1%80%D0%B0%D1%83_.jpg" width="200px">
+                        <li>Cross the river with boat</li>
+                        <li>Visit ancient city</li>
+                        <li>Eat delecius fish food</li>
+        
+                    </ul>
+                </div>
+            
+            </div>
+            <div id="right">
+
+            </div>
+            <img id="main-img" src="https://static.mk.ru/upload/entities/2022/08/26/08/articles/facebookPicture/46/18/b3/14/76be480d85893dd1ab964233eb993f75.jpg" >
+        </div>
+        
+    </body>
+</html>
