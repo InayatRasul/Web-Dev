@@ -1,7 +1,10 @@
 AngularProjects/
 L6RouterModule/
 L9Django/
-Lab7/virEnv/
+Lab7/virEnv/Scripts/
+Lab7/virEnv/Include/
+Lab7/virEnv/Lib/
+Lab7/virEnv/pyvenv.cfg
 Lab4/
 chekc
 angularComponents
