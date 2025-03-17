@@ -1,0 +1,34 @@
+{{title}}
+<ul>
+  <li *ngFor="let num of numbers">
+    {{num}}
+  </li>
+</ul>
+<ul>
+  <li *ngFor="let student of students; let i = index;">
+    {{i}}) {{student.id}} - {{student.full_name}} - {{student.gpa}}
+  </li>
+</ul>
+<h4 *ngIf="isMessage">
+  {{message}}
+</h4>
+<button (click)="btnClick()">hello</button>
+
+<fieldset>
+  <input type="text" [(ngModel)] = "display">
+  <button (click)="addItem()">Add Item</button>
+
+</fieldset>
+<!-- ngModel for 2 way dataf binding --- change by users can be displayed and updated automatically? -->
+<p>{{display}}</p>
+
+<ul>
+  <li *ngFor="let item of items; let i = index">
+    <p>
+      {{i}}) {{item}}
+    </p>
+    <button (click)="removeItem(i)">
+      remove
+    </button>
+  </li>
+</ul>
